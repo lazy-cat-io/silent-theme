@@ -2,7 +2,7 @@
   "name": "silent-theme",
   "displayName": "Silent Theme",
   "description": "A light theme for Visual Studio Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "just-sultanov",
   "license": "MIT",
   "author": {
@@ -12,7 +12,7 @@
     "Ilshat Sultanov <ilshat@sultanov.team>"
   ],
   "engines": {
-    "vscode": "^1.70.0"
+    "vscode": "^1.12.0"
   },
   "categories": [
     "Themes"

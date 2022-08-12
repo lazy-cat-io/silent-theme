@@ -1,0 +1,23 @@
+{:min-bb-version "0.9.161"
+
+ :tasks
+ {:enter         (let [{:keys [doc print-doc?]
+                        :or   {print-doc? true}} (current-task)]
+                   (when (and print-doc? doc)
+                     (println (format "▸ %s \n" doc))))
+
+  package:vscode {:doc  "[Visual Studio Code] Package theme"
+                  :task (shell {:dir "vscode"} "vsce package")}
+
+  package        {:doc        "Package theme"
+                  :print-doc? false
+                  :task       (do
+                                (run 'package:vscode))}
+
+  publish:vscode {:doc  "[Visual Studio Code] Publish theme"
+                  :task (shell {:dir "vscode"} "vsce publish")}
+
+  publish        {:doc        "Publish theme"
+                  :print-doc? false
+                  :task       (do
+                                (run 'publish:vscode))}}}

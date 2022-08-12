@@ -1,0 +1,4 @@
+.lsp
+.clj-kondo
+/.vscode
+*.vsix

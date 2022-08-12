@@ -1,0 +1,190 @@
+{
+  "name": "silent-theme",
+  "type": "light",
+  "colors": {
+    "activityBar.background": "#f0f0f0",
+    "activityBar.foreground": "#007acc",
+    "editor.background": "#f7f7f7",
+    "editor.findMatchBackground": "#ffbc5d",
+    "editor.findMatchHighlightBackground": "#ffd86381",
+    "editor.foreground": "#000000",
+    "editor.lineHighlightBackground": "#f0f0f0",
+    "editor.selectionBackground": "#bfdbfe",
+    "editor.selectionHighlightBackground": "#cfcfcf81",
+    "editorCursor.foreground": "#007acc",
+    "editorGroupHeader.tabsBackground": "#f0f0f0",
+    "editorLineNumber.foreground": "#9da39a",
+    "editorSuggestWidget.focusHighlightForeground": "#000000",
+    "editorSuggestWidget.highlightForeground": "#000000",
+    "editorSuggestWidget.selectedBackground": "#dddddd",
+    "editorSuggestWidget.selectedForeground": "#000000",
+    "focusBorder": "#cccccc",
+    "list.activeSelectionBackground": "#dddddd",
+    "list.activeSelectionForeground": "#000000",
+    "list.focusHighlightForeground": "#007acc",
+    "list.inactiveSelectionBackground": "#e6e6e6",
+    "panel.background": "#f0f0f0",
+    "quickInputList.focusBackground": "#dddddd",
+    "quickInputList.focusForeground": "#000000",
+    "sideBar.background": "#f0f0f0",
+    "statusBar.background": "#dddddd",
+    "statusBar.debuggingBackground": "#ffbc5d",
+    "statusBar.debuggingForeground": "#000",
+    "statusBar.foreground": "#474747",
+    "statusBar.noFolderBackground": "#7a3e9d",
+    "statusBar.noFolderForeground": "#fff",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBlue": "#325cc0",
+    "terminal.ansiBrightBlack": "#777777",
+    "terminal.ansiBrightBlue": "#007acc",
+    "terminal.ansiBrightCyan": "#00aacb",
+    "terminal.ansiBrightGreen": "#60cb00",
+    "terminal.ansiBrightMagenta": "#e64ce6",
+    "terminal.ansiBrightRed": "#f05050",
+    "terminal.ansiBrightWhite": "#ffffff",
+    "terminal.ansiBrightYellow": "#ffbc5d",
+    "terminal.ansiCyan": "#0083b2",
+    "terminal.ansiGreen": "#448c27",
+    "terminal.ansiMagenta": "#7a3e9d",
+    "terminal.ansiRed": "#aa3731",
+    "terminal.ansiWhite": "#bbbbbb",
+    "terminal.ansiYellow": "#cb9000"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "comment.line.semicolon.clojure"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#808080"
+      }
+    },
+    {
+      "name": "Nil",
+      "scope": ["constant.language.nil", "constant.language.nil.clojure"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#7a3e9d"
+      }
+    },
+    {
+      "name": "Boolean",
+      "scope": ["constant.language.boolean", "constant.language.boolean.clojure"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#7a3e9d"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": [
+        "constant.numeric",
+        "constant.numeric.arbitrary-radix.clojure",
+        "constant.numeric.decimal.clojure",
+        "constant.numeric.hexidecimal.clojure",
+        "constant.numeric.octal.clojure",
+        "constant.numeric.ratio.clojure"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#325cc0"
+      }
+    },
+    {
+      "name": "Keyword",
+      "scope": [
+        "constant.keyword",
+        "constant.keyword.clojure",
+        "support.type.property-name.json",
+        "keyword.operator.namespace.rust",
+        "entity.name.type.rust"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#7a3e9d"
+      }
+    },
+    {
+      "name": "Special form",
+      "scope": ["storage.control.clojure", "keyword.control.clojure", "keyword.other.rust", "keyword.other.fn.rust"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#325cc0"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
+        "punctuation",
+        "punctuation.section.expression.begin.clojure",
+        "punctuation.section.expression.end.trailing.clojure",
+        "punctuation.section.map.begin.clojure",
+        "punctuation.section.map.end.trailing.clojure",
+        "punctuation.section.vector.begin.clojure",
+        "punctuation.section.vector.end.trailing.clojure",
+        "punctuation.section.set.begin.clojure",
+        "punctuation.section.set.end.trailing.clojure",
+        "meta.expression.clojure"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#808080"
+      }
+    },
+    {
+      "name": "String",
+      "scope": ["string", "string.regexp.clojure"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#008000"
+      }
+    },
+    {
+      "name": "String - escape Sequences",
+      "scope": ["constant.character.escape"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#808080"
+      }
+    },
+    {
+      "name": "Symbol",
+      "scope": [
+        "meta.symbol.clojure",
+        "meta.var.clojure",
+        "entity.name.variable.clojure",
+        "entity.name.variable.dynamic.clojure",
+        "entity.global.clojure",
+        "entity.name.function.rust"
+      ],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#000000"
+      }
+    },
+    {
+      "name": "Namespace",
+      "scope": ["entity.name.namespace.clojure"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#325cc0"
+      }
+    },
+    {
+      "name": "Function",
+      "scope": ["entity.name"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#325cc0"
+      }
+    },
+    {
+      "name": "Metadata",
+      "scope": ["meta.metadata.simple.clojure"],
+      "settings": {
+        "fontStyle": "",
+        "foreground": "#000000"
+      }
+    }
+  ]
+}

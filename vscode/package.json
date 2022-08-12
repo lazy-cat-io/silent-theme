@@ -1,0 +1,41 @@
+{
+  "name": "silent-theme",
+  "displayName": "Silent Theme",
+  "description": "A light theme for Visual Studio Code",
+  "version": "0.0.1",
+  "publisher": "just-sultanov",
+  "license": "MIT",
+  "author": {
+    "name": "Ilshat Sultanov"
+  },
+  "maintainers": [
+    "Ilshat Sultanov <ilshat@sultanov.team>"
+  ],
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "vscode theme",
+    "vscode light theme",
+    "silent theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Silent Theme",
+        "uiTheme": "vs",
+        "path": "./light.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lazy-cat-io/silent-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lazy-cat-io/silent-theme/issues"
+  }
+}

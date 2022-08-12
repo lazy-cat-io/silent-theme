@@ -10,4 +10,4 @@ A light theme for Visual Studio Code.
 
 ## License
 
-[Copyright © 2022 lazy-cat.io](./license)
+[Copyright © 2022 lazy-cat.io](https://raw.githubusercontent.com/lazy-cat-io/silent-theme/master/vscode/license)

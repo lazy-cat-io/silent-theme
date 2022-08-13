@@ -1,5 +1,11 @@
 # Change Log
 
+## v0.0.6 (2022-08-13)
+
+### Added
+
+- Support for html and css
+
 ## v0.0.5 (2022-08-13)
 
 ### Removed

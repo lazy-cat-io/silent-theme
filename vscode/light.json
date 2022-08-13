@@ -96,6 +96,9 @@
         "constant.keyword",
         "constant.keyword.clojure",
         "support.type.property-name.json",
+        "entity.other.attribute-name.html",
+        "support.type.property-name.css",
+        "entity.other.attribute-name.pseudo-class.css",
         "keyword.operator.namespace.rust",
         "entity.name.type.rust"
       ],
@@ -106,7 +109,17 @@
     },
     {
       "name": "Special form",
-      "scope": ["storage.control.clojure", "keyword.control.clojure", "keyword.other.rust", "keyword.other.fn.rust"],
+      "scope": [
+        "storage.control.clojure",
+        "keyword.control.clojure",
+        "keyword.other.rust",
+        "keyword.other.fn.rust",
+        "keyword.control.at-rule",
+        "keyword.control.at-rule.font-face.css",
+        "keyword.control.at-rule.layer.tailwind",
+        "keyword.control.at-rule.apply.tailwind",
+        "keyword.control.at-rule.tailwind.tailwind"
+      ],
       "settings": {
         "fontStyle": "",
         "foreground": "#325cc0"
@@ -133,7 +146,7 @@
     },
     {
       "name": "String",
-      "scope": ["string", "string.regexp.clojure"],
+      "scope": ["string", "string.regexp.clojure", "variable.parameter.url.css"],
       "settings": {
         "fontStyle": "",
         "foreground": "#008000"

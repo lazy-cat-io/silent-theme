@@ -164,7 +164,7 @@
     },
     {
       "name": "Namespace",
-      "scope": ["entity.name.namespace.clojure"],
+      "scope": ["entity.name.namespace", "entity.name.namespace.clojure"],
       "settings": {
         "fontStyle": "",
         "foreground": "#325cc0"

@@ -11,7 +11,7 @@ A light theme for Visual Studio Code.
 ## Installation
 
 1. Go to `Extensions`
-2. Search for `Silent Theme`
+2. Search for `silent-theme`
 3. Install
 
 ## License

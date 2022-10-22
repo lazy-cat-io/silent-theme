@@ -1,6 +1,11 @@
 # Silent Theme
 
-A light theme for [Visual Studio Code](vscode/readme.md), IntelliJ IDEA.
+A light theme for [Neovim](neovim/readme.md), [Visual Studio Code](vscode/readme.md), IntelliJ IDEA.
+
+## Neovim
+
+TBD
+
 
 ## Visual Studio Code
 
@@ -11,6 +16,7 @@ Look at the [Marketplace](https://marketplace.visualstudio.com/items?itemName=ju
 
 ![VSCode Light Rust](https://raw.githubusercontent.com/lazy-cat-io/silent-theme/master/screenshots/vscode-light-rust.png)
 *Rust*
+
 
 ## Jetbrains IntelliJ IDEA
 

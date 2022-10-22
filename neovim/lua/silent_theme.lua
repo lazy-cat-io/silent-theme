@@ -226,8 +226,8 @@ local theme = lush(function()
     TSStringEscape       { fg = colors.gray }, -- Escape characters within a string: `\n`, `\t`, etc.
     TSStringSpecial      { fg = colors.gray }, -- Strings with special meaning that don't fit into the previous categories.
     TSSymbol             { fg = colors.purple }, -- Identifiers referring to symbols or atoms.
-    TSTag                { fg = colors.purple }, -- Tags like HTML tag names.
-    TSTagAttribute       { fg = colors.gray }, -- HTML tag attributes.
+    TSTag                { fg = colors.blue }, -- Tags like HTML tag names.
+    TSTagAttribute       { fg = colors.purple }, -- HTML tag attributes.
     TSTagDelimiter       { fg = colors.gray }, -- Tag delimiters like `<` `>` `/`.
     TSText               { fg = colors.green }, -- Non-structured text. Like text in a markup language.
     TSStrong             { }, -- Text to be represented in bold.
